@@ -1,27 +1,12 @@
 {
   "info": {
+    "_postman_id": "bd83fc5a-2944-4217-80ad-4418dca97278",
     "name": "Research Opportunity Portal API",
     "description": "Run the requests in order (use the Collection Runner). Set the baseUrl variable if the server is not on port 3000.",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58879014",
+    "_collection_link": "https://go.postman.co/collection/58879014-bd83fc5a-2944-4217-80ad-4418dca97278?source=collection_link"
   },
-  "variable": [
-    {
-      "key": "baseUrl",
-      "value": "http://localhost:3000"
-    },
-    {
-      "key": "id1",
-      "value": ""
-    },
-    {
-      "key": "id2",
-      "value": ""
-    },
-    {
-      "key": "id3",
-      "value": ""
-    }
-  ],
   "item": [
     {
       "name": "1. Create",
@@ -48,6 +33,15 @@
                 "value": "application/json"
               }
             ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Deep Learning for Medical Image Analysis\",\n  \"description\": \"Develop CNN models to detect anomalies in chest X-rays and evaluate them on public datasets.\",\n  \"research_area\": \"Artificial Intelligence\",\n  \"faculty_name\": \"Dr. Ayesha Khan\",\n  \"department\": \"Computer Science\",\n  \"required_skills\": \"Python, PyTorch, Machine Learning\",\n  \"available_positions\": 2,\n  \"deadline\": \"2026-12-15\",\n  \"status\": \"Open\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
               "raw": "{{baseUrl}}/api/opportunities",
               "host": [
@@ -57,17 +51,9 @@
                 "api",
                 "opportunities"
               ]
-            },
-            "body": {
-              "mode": "raw",
-              "raw": "{\n  \"title\": \"Deep Learning for Medical Image Analysis\",\n  \"description\": \"Develop CNN models to detect anomalies in chest X-rays and evaluate them on public datasets.\",\n  \"research_area\": \"Artificial Intelligence\",\n  \"faculty_name\": \"Dr. Ayesha Khan\",\n  \"department\": \"Computer Science\",\n  \"required_skills\": \"Python, PyTorch, Machine Learning\",\n  \"available_positions\": 2,\n  \"deadline\": \"2026-12-15\",\n  \"status\": \"Open\"\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "1.2 Create opportunity #2",
@@ -91,6 +77,15 @@
                 "value": "application/json"
               }
             ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Secure Routing in Wireless Sensor Networks\",\n  \"description\": \"Design and simulate a lightweight secure routing protocol for energy-constrained sensor nodes.\",\n  \"research_area\": \"Computer Networks\",\n  \"faculty_name\": \"Dr. Imran Ali\",\n  \"department\": \"Computer Science\",\n  \"required_skills\": \"C++, NS-3, Networking\",\n  \"available_positions\": 3,\n  \"deadline\": \"2026-11-30\",\n  \"status\": \"Open\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
               "raw": "{{baseUrl}}/api/opportunities",
               "host": [
@@ -100,17 +95,9 @@
                 "api",
                 "opportunities"
               ]
-            },
-            "body": {
-              "mode": "raw",
-              "raw": "{\n  \"title\": \"Secure Routing in Wireless Sensor Networks\",\n  \"description\": \"Design and simulate a lightweight secure routing protocol for energy-constrained sensor nodes.\",\n  \"research_area\": \"Computer Networks\",\n  \"faculty_name\": \"Dr. Imran Ali\",\n  \"department\": \"Computer Science\",\n  \"required_skills\": \"C++, NS-3, Networking\",\n  \"available_positions\": 3,\n  \"deadline\": \"2026-11-30\",\n  \"status\": \"Open\"\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
             }
-          }
+          },
+          "response": []
         },
         {
           "name": "1.3 Create opportunity #3",
@@ -134,6 +121,15 @@
                 "value": "application/json"
               }
             ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Sentiment Analysis for Pashto Social Media Text\",\n  \"description\": \"Build a labelled corpus and train NLP models for sentiment classification of Pashto text.\",\n  \"research_area\": \"Natural Language Processing\",\n  \"faculty_name\": \"Dr. Sana Gul\",\n  \"department\": \"Software Engineering\",\n  \"required_skills\": \"Python, NLP, Data Annotation\",\n  \"available_positions\": 1,\n  \"deadline\": \"2027-01-10\",\n  \"status\": \"Open\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
               "raw": "{{baseUrl}}/api/opportunities",
               "host": [
@@ -143,17 +139,9 @@
                 "api",
                 "opportunities"
               ]
-            },
-            "body": {
-              "mode": "raw",
-              "raw": "{\n  \"title\": \"Sentiment Analysis for Pashto Social Media Text\",\n  \"description\": \"Build a labelled corpus and train NLP models for sentiment classification of Pashto text.\",\n  \"research_area\": \"Natural Language Processing\",\n  \"faculty_name\": \"Dr. Sana Gul\",\n  \"department\": \"Software Engineering\",\n  \"required_skills\": \"Python, NLP, Data Annotation\",\n  \"available_positions\": 1,\n  \"deadline\": \"2027-01-10\",\n  \"status\": \"Open\"\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
             }
-          }
+          },
+          "response": []
         }
       ]
     },
@@ -187,7 +175,8 @@
                 "opportunities"
               ]
             }
-          }
+          },
+          "response": []
         }
       ]
     },
@@ -202,8 +191,7 @@
               "script": {
                 "type": "text/javascript",
                 "exec": [
-                  "pm.test(\"Status is 200 OK\", () => pm.response.to.have.status(200));",
-                  "pm.test(\"ID matches\", () => pm.expect(String(pm.response.json().id)).to.eql(pm.collectionVariables.get(\"id1\")));"
+                  "pm.test(\"Status is 200 OK\", () => pm.response.to.have.status(200));\npm.test(\"ID matches\", () => pm.expect(String(pm.response.json().id)).to.eql(String(pm.collectionVariables.get(\"id1\"))));"
                 ]
               }
             }
@@ -222,7 +210,8 @@
                 "{{id1}}"
               ]
             }
-          }
+          },
+          "response": []
         }
       ]
     },
@@ -251,6 +240,15 @@
                 "value": "application/json"
               }
             ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Secure and Energy-Efficient Routing in WSNs\",\n  \"required_skills\": \"C++, NS-3, Networking, Cryptography\",\n  \"available_positions\": 4,\n  \"deadline\": \"2026-12-20\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
               "raw": "{{baseUrl}}/api/opportunities/{{id2}}",
               "host": [
@@ -261,17 +259,9 @@
                 "opportunities",
                 "{{id2}}"
               ]
-            },
-            "body": {
-              "mode": "raw",
-              "raw": "{\n  \"title\": \"Secure and Energy-Efficient Routing in WSNs\",\n  \"required_skills\": \"C++, NS-3, Networking, Cryptography\",\n  \"available_positions\": 4,\n  \"deadline\": \"2026-12-20\"\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
             }
-          }
+          },
+          "response": []
         }
       ]
     },
@@ -300,6 +290,15 @@
                 "value": "application/json"
               }
             ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"Closed\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
               "raw": "{{baseUrl}}/api/opportunities/{{id1}}",
               "host": [
@@ -310,17 +309,9 @@
                 "opportunities",
                 "{{id1}}"
               ]
-            },
-            "body": {
-              "mode": "raw",
-              "raw": "{\n  \"status\": \"Closed\"\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
             }
-          }
+          },
+          "response": []
         }
       ]
     },
@@ -354,7 +345,8 @@
                 "{{id3}}"
               ]
             }
-          }
+          },
+          "response": []
         }
       ]
     },
@@ -388,7 +380,8 @@
                 "{{id3}}"
               ]
             }
-          }
+          },
+          "response": []
         }
       ]
     },
@@ -417,6 +410,15 @@
                 "value": "application/json"
               }
             ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"\",\n  \"description\": \"Missing most required fields\",\n  \"available_positions\": -5,\n  \"deadline\": \"not-a-date\",\n  \"status\": \"Maybe\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
               "raw": "{{baseUrl}}/api/opportunities",
               "host": [
@@ -426,19 +428,29 @@
                 "api",
                 "opportunities"
               ]
-            },
-            "body": {
-              "mode": "raw",
-              "raw": "{\n  \"title\": \"\",\n  \"description\": \"Missing most required fields\",\n  \"available_positions\": -5,\n  \"deadline\": \"not-a-date\",\n  \"status\": \"Maybe\"\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
             }
-          }
+          },
+          "response": []
         }
       ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    },
+    {
+      "key": "id1",
+      "value": ""
+    },
+    {
+      "key": "id2",
+      "value": ""
+    },
+    {
+      "key": "id3",
+      "value": ""
     }
   ]
 }
