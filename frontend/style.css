@@ -1,0 +1,5 @@
+.opp-card { transition: box-shadow .15s ease; }
+.opp-card:hover { box-shadow: 0 .4rem 1rem rgba(0, 0, 0, .12); }
+.opp-card .card-text { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.detail-label { font-weight: 600; color: #6c757d; font-size: .85rem; text-transform: uppercase; letter-spacing: .03em; }
+.detail-value { white-space: pre-wrap; }
