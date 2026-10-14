@@ -1,9 +1,9 @@
 # University Research Opportunity Portal
 
-**Course:** CN | **Program:** BS (CS 5A) | **Semester:** Fall-2026 | **Assignment #01**
-**Name:** _your name_ | **Reg. No:** _your reg no_
+**Course:** CN | **Program:** BS (AI 5A) | **Semester:** Fall-2026 | **Assignment #01**
+**Name:** MUNAWAR_ALI | **Reg. No:** 24P_0621
 
-**GitHub Repository:** https://github.com/username/research-opportunity-portal  <!-- TODO: replace with your real repo link -->
+**GitHub Repository:** https://github.com/void-dev21/research-opportunity-portal  <!-- TODO: replace with your real repo link -->
 
 A web application where faculty members can post, view, update, and manage research opportunities in one place.
 
